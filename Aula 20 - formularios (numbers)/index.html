@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+               
+        <titulo titulo="Formulários"></titulo>
+        
+        <p>Texto: {{texto}}</p>
+        <input type="text" v-model="texto">
+        
+        <p>Múltiplos Checkbox: {{notificacoes}}</p>
+        <input type="checkbox" id="receberEmail" value="email" v-model="notificacoes">
+        <label for="receberEmail">Receber e-mail</label>
+        <br/>
+        
+        <input type="checkbox" id="receberSMS" value="sms" v-model="notificacoes">
+        <label for="receberSMS">Receber SMS</label>
+        <br/>
+        
+        <input type="checkbox" id="receberTel" value="tel" v-model="notificacoes">
+        <label for="receberTel">Receber ligação</label>
+        <br/>
+        
+        <p>Radio: {{sexo}}</p>
+        <input type="radio" id="masculino" value="M" v-model="sexo">
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" id="feminino" value="F" v-model="sexo">
+        <label for="feminino">Feminino</label>
+        
+        <p>Select: {{ano}}</p>
+        <select name="ano" id="ano" v-model="ano">
+            <option value="" disabled>Escolha o ano</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+        </select>
+        
+        <p>Múltiplos Select: {{cores}}</p>
+        <select name="cores" id="cores" v-model="cores" multiple>
+            <option disabled>Escolha as cores</option>
+            <option>Azul</option>
+            <option>Verde</option>
+            <option>Vermelho</option>
+        </select>
+        
+        <p>Lazy {{busca}}</p>
+        <input type="text" v-model.lazy="busca">
+        
+        <p>Number: {{idade}} - {{typeof idade}}</p>
+        <input type="number" v-model.number="idade">
+       
+    </div>
+    
+    <script>
+        
+        Vue.component("titulo", {
+            props:["titulo"],
+            template:
+            '<h2>{{ titulo }}</h2>'
+        });
+            
+        
+        var app = new Vue({
+            el: "#app",
+            data:{
+                texto: '',
+                textarea: '',
+                termos: false,
+                notificacoes: [],
+                sexo: null,
+                ano: 2018,
+                cores: [],
+                busca: '',
+                idade: 55
+            }
+        });
+
+    </script>
+</body>
+
+</html>

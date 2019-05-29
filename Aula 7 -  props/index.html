@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <gui-titulo titulo="Esse é o titulo"></gui-titulo>
+    </div>
+    
+    <script>
+        
+        Vue.component("gui-titulo", {
+            props:["titulo"],
+            template: "<h1>{{titulo}}</h1>"
+        });
+        
+        var app = new Vue({
+            el: "#app"
+        });
+
+    </script>
+</body>
+
+</html>

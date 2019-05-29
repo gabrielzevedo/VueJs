@@ -1,0 +1,161 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo": "DC Universe",
+            "filmes": [
+                {
+                    "id": 1,
+                    "titulo": "Titans",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/oCK6fykCZUQjTJG4IDhfWCxcXqG.jpg"
+                            },
+                {
+                    "id": 2,
+                    "titulo": "The Flash",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/fki3kBlwJzFp8QohL43g9ReV455.jpg"
+                            },
+                {
+                    "id": 3,
+                    "titulo": "Arrow",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/mt69fT734ZpiyTxo4nqnpL8tPoL.jpg"
+                            },
+                {
+                    "id": 4,
+                    "titulo": "Legends of Tomorrow",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/lN7Hx9MbnCbUdGAmomk6pCmUOJ8.jpg"
+                            },
+                {
+                    "id": 5,
+                    "titulo": "Supergirl",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/ivqcndOjIWBuDJBjcFmtzehBzET.jpg"
+                            },
+                {
+                    "id": 6,
+                    "titulo": "Gotham",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/zABlhIWFrffJ6981Nm1Y1eHVSjA.jpg"
+                            },
+                {
+                    "id": 7,
+                    "titulo": "Krypton",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/9patmKdQ2oa5uxUkQpVuMcOQoni.jpg"
+                            },
+                {
+                    "id": 8,
+                    "titulo": "Black Lightning",
+                    "imagem": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/7R3jEEfRV2a3ElvMzrY4DnYJS8I.jpg"
+                            }
+                        ]
+                    }
+                ],
+    "series": [
+        {
+            "id": 1001,
+            "titulo": "Arrow",
+            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/mt69fT734ZpiyTxo4nqnpL8tPoL.jpg",
+            "cover": "https://image.tmdb.org/t/p/original/mt69fT734ZpiyTxo4nqnpL8tPoL.jpg",
+            "temporadas": [
+                {
+                    "id": 7,
+                    "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/vV3YQQIrd3Yt7WGkmtMdZJiKqt9.jpg",
+                    "cover": "https://image.tmdb.org/t/p/original/9cxK9fqx933lxnlOFWn1vEnHjV7.jpg",
+                    "episodios": [
+                        {
+                            "id": 701,
+                            "titulo": "Inmate 4587",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/3gxR1QYAmNIm0iZmHjutjOP6rDf.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/3gxR1QYAmNIm0iZmHjutjOP6rDf.jpg",
+                            "data_estreia": "2018-10-15",
+                            "sinopse": "Após se entregar ao FBI, revelando ser o Arqueiro Verde, Oliver passou os últimos 5 meses na Prisão de Segurança Máxima de Slabside."
+                        },
+                        {
+                            "id": 702,
+                            "titulo": "The Longbow Hunters",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/1Nh9fiG5wDczwnXpbcpr9uaqkOW.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/1Nh9fiG5wDczwnXpbcpr9uaqkOW.jpg",
+                            "data_estreia": "2018-10-22",
+                            "sinopse": "A fim de rastrear Diaz de dentro da prisão, Oliver percebe que isso exigirá o alinhamento com um velho inimigo. Enquanto isso, em Star City, as tentativas de Felicity de erradicar Diaz são frustradas por Diggle, cuja lealdade a ARGUS agora exige que ele mantenha civis como ela no escuro. Percebendo que não pode mais confiar em sua antiga equipe ou métodos antigos, Felicity resolve encontrar uma nova maneira de ir atrás de Diaz."
+                        },
+                        {
+                            "id": 703,
+                            "titulo": "Crossing Lines",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/1A9JEQeFibzGGPRLiKi0MySQGsM.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/1A9JEQeFibzGGPRLiKi0MySQGsM.jpg",
+                            "data_estreia": "2018-10-29",
+                            "sinopse": "Ainda na prisão, Oliver enfrenta seu maior desafio até agora. Enquanto isso, Felicity recebe uma oferta intrigante, e Diggle pede a Curtis para se disfarçar de ARGUS."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "titulo": "The Flash",
+            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/mt69fT734ZpiyTxo4nqnpL8tPoL.jpg",
+            "cover": "https://image.tmdb.org/t/p/original/mt69fT734ZpiyTxo4nqnpL8tPoL.jpg",
+            "temporadas": [
+                {
+                    "id": 5,
+                    "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/vV3YQQIrd3Yt7WGkmtMdZJiKqt9.jpg",
+                    "cover": "https://image.tmdb.org/t/p/original/9cxK9fqx933lxnlOFWn1vEnHjV7.jpg",
+                    "episodios": [
+                        {
+                            "id": 501,
+                            "titulo": "Nora",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/kdbAmRoJeBmlIjTYanTvs38s5Pg.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/kdbAmRoJeBmlIjTYanTvs38s5Pg.jpg",
+                            "data_estreia": "2018-10-10",
+                            "sinopse": "Barry e Iris tentam devolver uma visitante inesperada do futuro para sua linha do tempo."
+                        },
+                        {
+                            "id": 502,
+                            "titulo": "Bloqueado",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/y8ReSqVo0wSrLs1HpzmIxnsxM4g.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/y8ReSqVo0wSrLs1HpzmIxnsxM4g.jpg",
+                            "data_estreia": "2018-10-16",
+                            "sinopse": "Barry ajuda sua filha, Nora, a se tornar uma velocista melhor e, ele e a equipe, também rastreiam um meta roubando armas de alta tecnologia, apenas para cruzar caminhos com um novo inimigo chamado Cicada, que está caçando o mesmo meta com intenções nefastas."
+                        },
+                        {
+                            "id": 503,
+                            "titulo": "A Morte do Vibro",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/tW4HSTZfnSFzgm16t0PvEB7daXP.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/tW4HSTZfnSFzgm16t0PvEB7daXP.jpg",
+                            "data_estreia": "2018-10-23",
+                            "sinopse": "Após o ataque de Cicada ao Flash, a equipe percebe que precisa pensar fora da caixa para impedir esse novo inimigo perigoso. Desesperada para ajudar seus pais, Nora apresenta um plano que acaba colocando um membro do Team Flash em perigo. Enquanto isso, Caitlin investiga seu passado."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/vV3YQQIrd3Yt7WGkmtMdZJiKqt9.jpg",
+                    "cover": "https://image.tmdb.org/t/p/original/9cxK9fqx933lxnlOFWn1vEnHjV7.jpg",
+                    "episodios": [
+                        {
+                            "id": 401,
+                            "titulo": "O Flash Renasce",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/37q3ZTE4XZLGKpH0NZNg13CEvdk.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/37q3ZTE4XZLGKpH0NZNg13CEvdk.jpg",
+                            "data_estreia": "2018-10-10",
+                            "sinopse": "Barry e Iris tentam devolver uma visitante inesperada do futuro para sua linha do tempo."
+                        },
+                        {
+                            "id": 402,
+                            "titulo": "Sinais Confusos",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/aJOLJB9rUEuQ5D5yQVC4ZnWHmil.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/aJOLJB9rUEuQ5D5yQVC4ZnWHmil.jpg",
+                            "data_estreia": "2018-10-16",
+                            "sinopse": "Barry ajuda sua filha, Nora, a se tornar uma velocista melhor e, ele e a equipe, também rastreiam um meta roubando armas de alta tecnologia, apenas para cruzar caminhos com um novo inimigo chamado Cicada, que está caçando o mesmo meta com intenções nefastas."
+                        },
+                        {
+                            "id": 403,
+                            "titulo": "A Sorte na Mulher",
+                            "thumbnail": "https://image.tmdb.org/t/p/w350_and_h196_bestv2/po8WZLj87FWUX6K0MZkODR2zSJb.jpg",
+                            "cover": "https://image.tmdb.org/t/p/original/po8WZLj87FWUX6K0MZkODR2zSJb.jpg",
+                            "data_estreia": "2018-10-23",
+                            "sinopse": "Após o ataque de Cicada ao Flash, a equipe percebe que precisa pensar fora da caixa para impedir esse novo inimigo perigoso. Desesperada para ajudar seus pais, Nora apresenta um plano que acaba colocando um membro do Team Flash em perigo. Enquanto isso, Caitlin investiga seu passado."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

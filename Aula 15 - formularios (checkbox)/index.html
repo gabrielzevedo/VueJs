@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+               
+        <titulo titulo="Formulários"></titulo>
+        
+        <p>Texto: {{texto}}</p>
+        <input type="text" v-model="texto">
+        
+        <p>Checkbox:</p>
+        <input type="checkbox" id="aceitaTermos" v-model="termos">
+        <label for="aceitaTermos">{{termos}}</label>
+       
+    </div>
+    
+    <script>
+        
+        Vue.component("titulo", {
+            props:["titulo"],
+            template:
+            '<h2>{{ titulo }}</h2>'
+        });
+            
+        
+        var app = new Vue({
+            el: "#app",
+            data:{
+                texto: '',
+                textarea: '',
+                termos: false
+            }
+        });
+
+    </script>
+</body>
+
+</html>
